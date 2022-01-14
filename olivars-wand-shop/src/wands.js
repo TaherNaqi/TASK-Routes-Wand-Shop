@@ -2,6 +2,8 @@ const wands = [
   {
     core: "Phoenix Feather",
     id: 1,
+    description:
+      "Phoenix feather wands are always the pickiest when it comes to potential owners, for the creature from which they are taken is one of the most independent and detached in the world.",
     wood: "Holly",
     length: 11,
     slug: "phoenix-feather-holly-1",
@@ -20,6 +22,8 @@ const wands = [
   {
     core: "Phoenix Feather",
     id: 3,
+    description:
+      "Phoenix feather wands are always the pickiest when it comes to potential owners, for the creature from which they are taken is one of the most independent and detached in the world.",
     wood: "Yew",
     length: 13.5,
     slug: "phoenix-feather-yew-1",
