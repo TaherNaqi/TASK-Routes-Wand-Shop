@@ -9,15 +9,15 @@ const Detail = () => {
     return <Navigate to="*" />;
   }
   let recommended = wands
-    .filter((wand) => wand.core != pageWand.core)
+    .filter((wand) => wand.core !== pageWand.core)
     .map((wand) => <Wand wand={wand} key={wand.id} />);
   return (
     <div className="container-fluid">
-      <img className="center" src={pageWand.imageUrl} />
+      <img className="center" src={pageWand.imageUrl} alt={pageWand.core} />
       <div className="card">
         <div className="card-header">
           <ul className="nav nav-tabs card-header-tabs">
-            <li className="nav-item"> Specifications</li>
+            <li className="nav-item bold-text">Specifications</li>
           </ul>
         </div>
         <div className="card-body">
@@ -25,7 +25,7 @@ const Detail = () => {
           <p className="card-text">Wood type: {pageWand.wood}</p>
         </div>
       </div>
-      <p>More wands:</p>
+      <p style={{ padding: "10px" }}>More wands:</p>
       <div className="card-flex">{recommended}</div>
     </div>
   );
