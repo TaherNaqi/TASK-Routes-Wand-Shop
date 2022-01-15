@@ -43,16 +43,17 @@
 img {
   width: 450px;
   height: 450px;
+  transition: 0.3s;
 }
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 30%;
   height: 60vh;
 }
 .card-img-top:hover {
-  opacity: 0.7;
+  opacity: 0.8;
 }
 .card-listing {
   flex: 1 0 21%;

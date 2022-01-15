@@ -17,7 +17,7 @@ const Detail = () => {
       <div className="card">
         <div className="card-header">
           <ul className="nav nav-tabs card-header-tabs">
-            <li className="nav-item bold-text">Specifications</li>
+            <li className="nav-item fw-bold">Specifications</li>
           </ul>
         </div>
         <div className="card-body">
